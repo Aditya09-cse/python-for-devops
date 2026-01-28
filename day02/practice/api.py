@@ -9,7 +9,6 @@ response = requests.get(url=api_url)
 # Convert the raw response text into a Python dictionary and print it
 print(response.json())
 
-# Display the data type to verify it has been converted from a string to a dictionary
 print(type(response.json())) # Output: <class 'dict'>
 
 # Iterate through the dictionary to extract and print each key-value pair
