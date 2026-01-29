@@ -11,7 +11,7 @@ print(info)
 info.update({"gender" : "male"})
 print(info)
 
-print("I live in " ,info["city"])
+print("I live in " ,info["city"]) # output == Gwalior
 print("my age ", info.get("Age")) # output == my age none
 print("my age ", info.get("Age", "Not found")) # output == my age not found 
 
